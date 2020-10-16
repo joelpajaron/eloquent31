@@ -1,0 +1,499 @@
+@media (max-width: 1200px) {
+  header .container-fluid .navbar-nav li a {
+    font-size: 14px;
+  }
+  header .container-fluid .navbar-nav li:not(:last-child) {
+    margin-right: 30px;
+  }
+  header .container-fluid .navbar-nav li:last-child {
+    margin-left: 0;
+  }
+  .page-banner h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .bigger-better .this-body p {
+    height: auto !important;
+  }
+  .menu-button {
+    max-width: 35px;
+  }
+  .home-banner .banner-tagline {
+    max-width: 650px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 50;
+    margin: 0 auto;
+  }
+  .home-banner .banner-tagline h1, .home-banner .banner-tagline p {
+    color: #fff;
+  }
+  .home-banner .banner-tagline h1 {
+    font-size: 45px;
+  }
+  .home-banner:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  header .container-fluid .navbar-nav li:not(:last-child) a {
+    padding-bottom: 0;
+  }
+  header .container-fluid .navbar-nav li:not(:last-child) {
+    margin: 5px 0;
+    margin-right: 0;
+  }
+  header .container-fluid .navbar-nav li:last-child {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  header .navbar-nav {
+    margin-top: 20px;
+  }
+  .cloud-based-section .about-caption {
+    margin-bottom: 50px;
+  }
+  .page-tagline h2 {
+    margin-bottom: 20px;
+  }
+  .simplify-modernize .section-banners {
+    height: 500px;
+  }
+  .simplify-modernize .right-side .body-max {
+    max-width: 100%;
+  }
+  .offer h1 {
+    font-size: 35px;
+  }
+  .bigger-better .headline h1 {
+    font-size: 35px;
+  }
+  .bigger-better .headline p {
+    font-size: 18px;
+  }
+  .simplify-modernize .right-side .body-max h1 {
+    font-size: 35px;
+  }
+  .service-solutions h3 {
+    font-size: 35px;
+  }
+  .cloud-based-section h1 {
+    font-size: 35px;
+    max-width: 100%;
+  }
+  .enlightened-approach h1 {
+    font-size: 35px;
+  }
+  .enlightened-approach img {
+    height: 400px;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .cloud-power h1 {
+    font-size: 35px;
+  }
+  .cloud-power .container-img {
+    margin-bottom: 50px;
+  }
+  .biggest-name h1 {
+    font-size: 35px;
+  }
+  .subscription .forms input[type=email] {
+    width: 100%;
+  }
+  .subscription .content {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  footer .common-div {
+    text-align: center;
+    margin: 30px 0;
+  }
+  footer .footer-logo {
+    margin-bottom: 30px;
+  }
+  footer .footer-note {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  footer .footer-note li:first-child {
+    -webkit-box-ordinal-group: 13;
+        -ms-flex-order: 12;
+            order: 12;
+  }
+  footer .footer-note li {
+    margin-bottom: 15px;
+  }
+  .biggest-name ul li img {
+    max-width: 100px;
+  }
+  .service-solutions ul li .body-card .body-row {
+    height: auto !important;
+  }
+  .bigger-better .this-body {
+    margin-bottom: 50px;
+  }
+  footer .common-div ul li a i {
+    margin-right: 10px;
+  }
+  .about-inner {
+    padding: 20px 0px;
+  }
+  .first-about {
+    margin-top: 100px;
+  }
+  .second-about {
+    margin-bottom: 100px;
+  }
+  .about-inner .about-inner-img {
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .elo-button {
+    margin: 30px 0px 50px;
+  }
+  .business-banner h1 {
+    font-size: 35px;
+    max-width: 700px;
+    text-align: center;
+  }
+  .business-banner p {
+    max-width: 800px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .contact-body .get-in-touch {
+    margin-bottom: 50px;
+  }
+  .contact-body .compare-card {
+    margin-top: 50px;
+  }
+  .manage-console .membership-section {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+  }
+  .c-products .cloud-item::after {
+    content: "";
+    background: #2979a9;
+    width: 100% !important;
+    height: 1px;
+    position: absolute;
+    right: 0px;
+    bottom: 30px !important;
+  }
+  .managed-cloud {
+    padding: 50px 25px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-banner {
+    background-position: center;
+  }
+  header .container-fluid {
+    padding: 15px 25px 11px;
+    max-width: 1440px;
+  }
+  footer .footer-note li {
+    font-size: 12px;
+  }
+  footer .footer-note li a {
+    font-size: 12px;
+  }
+  .pills-container .nav-pills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pills-container .nav-pills li {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 625px) {
+  .subscription .forms input[type=button] {
+    width: 100%;
+    position: relative;
+    right: 0;
+    margin-top: 20px;
+  }
+  .subscription .forms input[type=email] {
+    width: 100%;
+    padding-right: 20px;
+  }
+  .subscription .content {
+    text-align: center;
+  }
+  .subscription .content p {
+    max-width: 100%;
+  }
+  .subscription .forms {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page-banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .pills-container {
+    position: relative;
+    bottom: 0;
+  }
+  .common-list li:not(:last-child)::after {
+    width: 350px;
+  }
+}
+
+@media (max-width: 575px) {
+  .service-solutions ul li .body-card img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .service-solutions ul li .body-card h2 {
+    text-align: center;
+  }
+  .service-solutions ul li .body-card p {
+    text-align: center;
+  }
+  .service-solutions ul li {
+    margin: 50px 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .biggest-name ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .faq-list .faq-button button {
+    padding: 0px 25px;
+  }
+  .faq-list .faq-content {
+    padding: 20px 25px;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-banner .banner-tagline h1 {
+    font-size: 35px;
+  }
+  .home-banner .banner-tagline p {
+    font-size: 18px;
+  }
+  .navbar-brand img {
+    max-width: 200px;
+  }
+  header .container-fluid {
+    padding: 15px 0px 11px;
+  }
+  .cloud-based-section .section-links a {
+    font-size: 16px;
+  }
+  .cloud-based-section h1 {
+    font-size: 25px;
+    max-width: 100%;
+  }
+  .cloud-based-section img {
+    height: 300px;
+    width: 100%;
+  }
+  .service-solutions h3 {
+    font-size: 25px;
+  }
+  .simplify-modernize .right-side {
+    padding: 80px 25px;
+  }
+  .simplify-modernize .right-side .body-max h1 {
+    font-size: 25px;
+  }
+  .bigger-better .headline h1 {
+    font-size: 25px;
+  }
+  .bigger-better .headline p {
+    font-size: 16px;
+    padding: 0;
+  }
+  .offer h1 {
+    font-size: 25px;
+  }
+  .enlightened-approach h1 {
+    font-size: 25px;
+  }
+  footer .common-div ul li a {
+    font-size: 13px;
+  }
+  footer .footer-note li {
+    font-size: 10px;
+  }
+  footer .footer-note li a {
+    font-size: 10px;
+  }
+  .cloud-power h1 {
+    font-size: 25px;
+  }
+  .page-tagline h2 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  .biggest-name h1 {
+    font-size: 25px;
+  }
+  .biggest-name ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .subscription .forms input[type=button] {
+    font-size: 18px;
+  }
+  .cloud-power .container-img .body-opacity h2 {
+    font-size: 20px;
+  }
+  .about-inner .about-inner-text h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .business-banner h1 {
+    font-size: 25px;
+    max-width: 700px;
+    text-align: center;
+  }
+  .solutions-container h1 {
+    font-size: 25px;
+  }
+  .solutions-container p {
+    font-size: 14px;
+  }
+  .solutions-container ul li h5 {
+    font-size: 14px;
+  }
+  .solutions-container .solution-link-icon {
+    max-width: 250px;
+  }
+  .contact-body {
+    padding: 100px 0px;
+  }
+  .contact-body .get-in-touch h2 {
+    font-size: 30px;
+  }
+  .compare-pricing p {
+    font-size: 20px;
+  }
+  .page-banner h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .pills-container .nav-pills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pills-container .nav-pills li {
+    margin-bottom: 5px;
+  }
+  .tabs-main-wrapper .tabs-item .tab-header h1 {
+    font-size: 30px;
+  }
+  .tabs-main-wrapper .tabs-item .tab-header {
+    margin-bottom: 0px;
+  }
+  .c-products .cloud-item::after {
+    content: "";
+    background: #2979a9;
+    width: 100% !important;
+    height: 1px;
+    position: absolute;
+    right: 0px;
+    bottom: 30px !important;
+  }
+  .manage-console h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .manage-console p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: justify;
+    color: #535353;
+  }
+  .manage-console h2 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.8;
+  }
+  .common-list li:not(:last-child)::after {
+    width: 200px;
+  }
+  .membership-list h4 {
+    font-size: 20px;
+  }
+  .membership-list ul li {
+    font-size: 14px;
+  }
+  .membership-list ul {
+    margin-left: 45px;
+  }
+  .membership-movement h1 {
+    font-size: 25px;
+  }
+  .membership-movement .this-container {
+    padding: 50px 30px;
+  }
+  .membership-movement .this-container h2 {
+    font-size: 20px;
+  }
+  .membership-movement .this-container p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

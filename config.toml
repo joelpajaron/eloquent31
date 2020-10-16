@@ -1,0 +1,35 @@
+baseURL = "https://gohugo.io/"
+paginate =  100
+defaultContentLanguage = "en"
+enableEmoji = true
+# Set the unicode character used for the "return" link in page footnotes.
+footnotereturnlinkcontents = "↩"
+languageCode = "en-us"
+title = "Eloquent"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[menu]
+    [[menu.main]]
+    identifier = "index"
+    name       = "index"
+    url        = "/"
+    weight     = 0
+
+    [[menu.main]]
+    identifier = "business-solution"
+    name       = "business-solution"
+    url        = "business-solution"
+    weight     = 1
+
+    [[menu.main]]
+    identifier = "product-services"
+    name       = "product-services"
+    url        = "product-services"
+    weight     = 2
+
+    [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about"
+    weight     = 3
+
